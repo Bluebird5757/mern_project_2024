@@ -7,7 +7,7 @@ const { dosaveconsumer, doupdateconsumer, dofetchconsumer } = require("../contro
 const validatetoken=require("../auth/validatetoken");
 const validatetokenwithNext=require("../auth/validate-token-with-next");
 app.post("/fetch-signup",dofetchsignup);
-validatetokenwithNext();
+// validatetokenwithNext();
 // const {dofetchsignup}=require("../controllers/controllerlogin");
 const app=express.Router();
 app.post("/add-profile",dosaveprofile);
