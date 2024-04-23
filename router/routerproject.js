@@ -5,6 +5,8 @@ const { dosavegrower, doupdategrower ,dofetchgrower,doavailproduct,dofetchitems}
 const { dofindgrower } = require("../controllers/controllerconsumer");
 const { dosaveconsumer, doupdateconsumer, dofetchconsumer } = require("../controllers/controllerconsumer");
 const validatetoken=require("../auth/validatetoken");
+const validatetokenwithNext=require("../auth/validate-token-with-next");
+validatetokenwithNext();
 // const {dofetchsignup}=require("../controllers/controllerlogin");
 const app=express.Router();
 app.post("/add-profile",dosaveprofile);
