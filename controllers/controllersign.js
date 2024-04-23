@@ -11,7 +11,7 @@ function dosaveemail(req,resp)
 }
 function dofetchsignup(req,resp)
 {
-    console.log("ghghg");
+    alert("cnsjdch");
     const {email,password}=req.body;
     console.log(req.body);
     Signupmodel.findOne({email:email,password:password})
