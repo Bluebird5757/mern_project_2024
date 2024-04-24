@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx nodemon server-router.js",
     "dev2": "npx nodemon server-router-2.js",
-    "dev3": "npx nodemon mongo-server.js"
+    "start": "npx nodemon mongo-server.js"
   },
   "keywords": [],
   "author": "",
